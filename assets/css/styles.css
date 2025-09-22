@@ -1,6 +1,41 @@
+:root{
+    --background: #f6f6f6;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 @font-face{
     font-family: 'Norse Bold';
     src: url('../fonts/Norse-Bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+}
+
+body{
+    background-color: var(--background);
+    font-family: "Roboto", sans-serif;
+}
+
+.layout{
+    display: flex;
+    min-height: 100vh;
+}
+
+.image-pane{
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-pane img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
