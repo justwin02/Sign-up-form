@@ -93,3 +93,40 @@ body{
 .cta{
     margin: 2rem 0 2rem 0;
 }
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  gap: 1.5rem 2rem; /* row-gap and column-gap */
+}
+
+.field {
+  display: flex;
+  flex-direction: column; /* label on top, input under */
+}
+
+.field label {
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.field input {
+  padding: 0.6rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
