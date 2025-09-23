@@ -134,6 +134,17 @@ body{
     max-width: 18rem;
 }
 
+.field input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+    outline: none;
+}
+
+.field input:invalid {
+     border-color: #dc2626; 
+}
+
+
 .after {
     margin: 2rem 0 0 2rem;
     padding: 1rem 0;
