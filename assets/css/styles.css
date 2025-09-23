@@ -71,7 +71,7 @@ body{
     position: absolute;
     bottom: 1rem;
     left: 50%;
-    transform: translateX(-50%); /* center horizontally */
+    transform: translateX(-50%);
     font-size: 0.8rem;
     color: #fff;
     padding: 0.3rem 0;
@@ -85,4 +85,11 @@ body{
 
 .content{
     flex: 1;
+}
+.intro{
+    margin: 10rem 20rem 2rem 5rem;
+}
+
+.cta{
+    margin: 2rem 0 2rem 0;
 }
