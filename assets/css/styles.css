@@ -86,12 +86,14 @@ body{
 .content{
     flex: 1;
 }
+
 .intro{
-    margin: 10rem 20rem 2rem 5rem;
+    max-width: 80%;
+    margin: 7rem 0 2rem 5rem;
 }
 
 .cta{
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 3rem 0;
 }
 
 .card {
