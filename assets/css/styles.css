@@ -133,3 +133,43 @@ body{
     font-size: 1rem;
     max-width: 18rem;
 }
+
+.after {
+    margin: 2rem 0 0 2rem;
+    padding: 1rem 0;
+}
+
+.actions {
+    margin-bottom: 1rem;
+}
+
+button.primary {
+    background-color: #596D48;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.primary:hover {
+    background-color: #475c3b;
+}
+
+.login-redirect {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.login-redirect a {
+    color: #596D48;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-redirect a:hover {
+    text-decoration: underline;   
+}
